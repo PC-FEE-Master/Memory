@@ -2,8 +2,8 @@
 function flip(cardObj) {
 	//SHOULD make absolutely nothing happen and log the cardObj
 	//WAS if (cardObj.facedown)
-	if (cardObj.hasOwnProperty('facedown')) {
-		cardObj.facedown = false
+	if (cardObj.facedown) {
+		
 		cardObj.removeClass('facedown')
 	} else {
 		cardObj.facedown = true
