@@ -5,7 +5,6 @@ function flip(cardObj) {
 	if (cardObj.hasOwnProperty('facedown')) {
 		cardObj.facedown = false
 		cardObj.removeClass('facedown')
-		console.log(cardObj)
 	} else {
 		cardObj.facedown = true
 		cardObj.addClass('facedown')
