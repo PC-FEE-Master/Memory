@@ -1,0 +1,16 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+.facedown {
+	color: red;
+}
+
+#gamespace{
+	margin: 0 auto;
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	font-size: 80px;
+	letter-spacing: 10px;
+	padding: 10px;
+}
